@@ -17,7 +17,7 @@ static int nextValidIndex()
 {
 	BOOL firstValuePassed = NO;
 									//Stop when the loop is complete (i has reached its initial value again)
-	for (int i = (currentIndex + 1); !((i == currentIndex) && firstValuePassed); i++)
+	for (int i = (currentIndex + 1); i != currentIndex; i++)
 	{
 		if (i == [PREFS.modes count])
 			i = 0; //Reset if we have reached the end of the modes list
