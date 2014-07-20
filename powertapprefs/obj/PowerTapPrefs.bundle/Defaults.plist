@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PowerDown</key>
+	<dict>
+		<key>color</key>
+		<string>red</string>
+		<key>enabled</key>
+		<true/>
+		<key>index</key>
+		<string>0</string>
+		<key>string</key>
+		<string>slide to power off</string>
+	</dict>
+	<key>Reboot</key>
+	<dict>
+		<key>color</key>
+		<string>orange</string>
+		<key>enabled</key>
+		<true/>
+		<key>index</key>
+		<string>1</string>
+		<key>icon</key>
+		<string>/Library/Application Support/Power Tap/RebootKnob.png</string>
+		<key>string</key>
+		<string>slide to reboot</string>
+	</dict>
+	<key>Respring</key>
+	<dict>
+		<key>color</key>
+		<string>gray</string>
+		<key>enabled</key>
+		<false/>
+		<key>index</key>
+		<string>2</string>
+		<key>icon</key>
+		<string>/Library/Application Support/Power Tap/RespringKnob.png</string>
+		<key>string</key>
+		<string>slide to respring</string>
+	</dict>
+	<key>SafeMode</key>
+	<dict>
+		<key>color</key>
+		<string>purple</string>
+		<key>enabled</key>
+		<false/>
+		<key>index</key>
+		<string>3</string>
+		<key>icon</key>
+		<string>/Library/Application Support/Power Tap/SafeModeKnob.png</string>
+		<key>string</key>
+		<string>slide for safe mode</string>
+	</dict>
+</dict>
+</plist>

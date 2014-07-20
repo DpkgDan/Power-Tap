@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Active Toggles</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.dpkgdan.powertap</string>
+			<key>key</key>
+			<string>Reboot-Toggle</string>
+			<key>label</key>
+			<string>Reboot</string>
+            <key>PostNotification</key>
+            <string>com.dpkgdan.powertap.settingsupdated</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.dpkgdan.powertap</string>
+			<key>key</key>
+			<string>Respring-Toggle</string>
+			<key>label</key>
+			<string>Respring</string>
+			<key>PostNotification</key>
+            <string>com.dpkgdan.powertap.settingsupdated</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.dpkgdan.powertap</string>
+			<key>key</key>
+			<string>SafeMode-Toggle</string>
+			<key>label</key>
+			<string>Safe Mode</string>
+			<key>PostNotification</key>
+            <string>com.dpkgdan.powertap.settingsupdated</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Custom Track Text</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+            <string>PSEditTextCell</string>
+            <key>defaults</key>
+            <string>com.dpkgdan.powertap</string>
+            <key>key</key>
+            <string>Reboot-String</string>
+            <key>label</key>
+            <string>Reboot</string>
+            <key>placeholder</key>
+            <string>slide to reboot</string>
+            <key>PostNotification</key>
+            <string>com.dpkgdan.powertap.settingsupdated</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+            <string>PSEditTextCell</string>
+            <key>defaults</key>
+            <string>com.dpkgdan.powertap</string>
+            <key>key</key>
+            <string>Respring-String</string>
+            <key>label</key>
+            <string>Respring</string>
+            <key>placeholder</key>
+            <string>slide to respring</string>
+            <key>PostNotification</key>
+            <string>com.dpkgdan.powertap.settingsupdated</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+            <string>PSEditTextCell</string>
+            <key>defaults</key>
+            <string>com.dpkgdan.powertap</string>
+            <key>key</key>
+            <string>SafeMode-String</string>
+            <key>label</key>
+            <string>Safe Mode</string>
+            <key>placeholder</key>
+            <string>slide for safe mode</string>
+            <key>PostNotification</key>
+            <string>com.dpkgdan.powertap.settingsupdated</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>© 2014 Dan Saba</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>openPaypalLink:</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Donate via Paypal</string>
+			<key>icon</key>
+			<string>paypalIcon.png</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>Power Tap</string>
+</dict>
+</plist>
