@@ -4,7 +4,7 @@ ADDITIONAL_OBJCFLAGS = -fobjc-arc
 include theos/makefiles/common.mk
 
 TWEAK_NAME = PowerTap
-PowerTap_FILES = Tweak.xm PreferencesDictionary.m
+PowerTap_FILES = Tweak.xm PTPreferences.m
 PowerTap_FRAMEWORKS = UIKit CoreFoundation
 
 include $(THEOS_MAKE_PATH)/tweak.mk

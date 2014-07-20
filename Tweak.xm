@@ -1,5 +1,5 @@
 #import "Headers.h"
-#import "PreferencesDictionary.h"
+#import "PTPreferences.h"
 
 static int nextValidIndex();
 static void update (
@@ -11,7 +11,7 @@ static void update (
 );
 
 static int currentIndex = 0;
-static PreferencesDictionary *PREFS = nil;
+static PTPreferences *PREFS = nil;
 
 static int nextValidIndex()
 {
@@ -41,7 +41,7 @@ static void update (
     CFDictionaryRef userInfo
 )
 {
-	PREFS = [PreferencesDictionary new];
+	PREFS = [PTPreferences new];
 }
 
 %hook _UIActionSlider
@@ -112,7 +112,7 @@ static void update (
 %end
 
 %ctor {
-	PREFS = [PreferencesDictionary new];
+	PREFS = [PTPreferences new];
 	CFNotificationCenterAddObserver(CFNotificationCenterGetDarwinNotifyCenter(), NULL, update,
 		 CFSTR("com.dpkgdan.powertap.settingsupdated"), NULL,
 		  CFNotificationSuspensionBehaviorDeliverImmediately);
