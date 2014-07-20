@@ -1,7 +1,7 @@
 Package: com.dpkgdan.powertap
 Name: Power Tap
 Depends: firmware (>= 7), mobilesubstrate
-Conflicts: org.coolstar.betterpowerdown, com.dpkgdan.slidetoreboot
+Conflicts: org.coolstar.betterpowerdown, com.dpkgdan.slidetoreboot, ws.hbang.repower, com.myrepospace.dpkgdan.powertap, com.myrepospace.dpkgdan.slidetoreboot
 Version: 1.1
 Architecture: iphoneos-arm
 Description: Adds the option to reboot your device upon clicking the “power” symbol.
