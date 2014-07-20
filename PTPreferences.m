@@ -69,8 +69,7 @@ static void reconcilePreferences(NSMutableDictionary *defaults, NSMutableDiction
 		NSString *pathToIcon = [self valueForSpecifier: @"icon" mode: mode];
 		icon = [UIImage imageWithContentsOfFile: pathToIcon];
 	}
-	
-	return [icon imageWithRenderingMode: UIImageRenderingModeAlwaysTemplate];
+	return icon;
 }
 
 - (UIColor*)tintColorForMode:(NSString*)mode

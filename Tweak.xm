@@ -60,6 +60,7 @@ static void update (
 - (void)setNewKnobImage:(UIImage*)image
 {
 	UIImageView *knobImageView = MSHookIvar<UIImageView*>(self, "_knobImageView");
+	image = [image imageWithRenderingMode: UIImageRenderingModeAlwaysTemplate];
 	knobImageView.image = image;
 	knobImageView.tintColor = [PREFS tintColorForMode: [PREFS modeForIndex: currentIndex]];
 }
@@ -98,7 +99,7 @@ static void update (
 	else if ([modeString isEqualToString: @"Respring"])
 		[[UIApplication sharedApplication] terminateWithSuccess];
 	else if ([modeString isEqualToString: @"SafeMode"])
-		[[UIApplication sharedApplication] nonExistantMethod];
+		[[UIApplication sharedApplication] nonExistentMethod];
 	else
 		%orig;	
 }

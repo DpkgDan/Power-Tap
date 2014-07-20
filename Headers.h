@@ -16,6 +16,6 @@
 
 - (void)reboot;
 - (void)terminateWithSuccess;
-- (void)nonExistantMethod;
+- (void)nonExistentMethod;
 
 @end
