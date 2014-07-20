@@ -112,7 +112,7 @@
 			<key>cell</key>
 			<string>PSButtonCell</string>
 			<key>label</key>
-			<string>Donate via Paypal</string>
+			<string>Donate via PayPal</string>
 			<key>icon</key>
 			<string>paypalIcon.png</string>
 		</dict>

@@ -7,7 +7,7 @@
 @property (readonly) NSArray *modes;
 
 - (NSString*)modeForIndex:(int)index;
-- (NSString*)valueForSpecifier:(NSString*)specifier mode:(NSString*)mode;
+- (id)valueForSpecifier:(NSString*)specifier mode:(NSString*)mode;
 - (UIImage*)iconForMode:(NSString*)mode;
 - (UIColor*)tintColorForMode:(NSString*)mode;
 - (NSArray*)trackTexts;
