@@ -112,4 +112,12 @@ static void reconcilePreferences(NSMutableDictionary *defaults, NSMutableDiction
 	return [[NSArray alloc] initWithArray: _trackTexts];
 }
 
+- (void)setPowerDownTrackText:(NSString*)trackText
+{
+	NSMutableDictionary *tempDict = [_preferences mutableCopy];
+	[[tempDict objectForKey: @"PowerDown"] setObject: trackText forKey: @"string"];
+	
+	_preferences = [[NSDictionary alloc] initWithDictionary: tempDict];
+}
+
 @end

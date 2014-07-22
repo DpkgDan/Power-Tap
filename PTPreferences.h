@@ -11,5 +11,6 @@
 - (UIImage*)iconForMode:(NSString*)mode;
 - (UIColor*)tintColorForMode:(NSString*)mode;
 - (NSArray*)trackTexts;
+- (void)setPowerDownTrackText:(NSString*)trackText;
 
 @end

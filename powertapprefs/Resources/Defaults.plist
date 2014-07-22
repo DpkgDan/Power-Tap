@@ -31,7 +31,7 @@
 		<key>color</key>
 		<string>gray</string>
 		<key>enabled</key>
-		<false/>
+		<true/>
 		<key>index</key>
 		<string>2</string>
 		<key>icon</key>
@@ -44,7 +44,7 @@
 		<key>color</key>
 		<string>purple</string>
 		<key>enabled</key>
-		<false/>
+		<true/>
 		<key>index</key>
 		<string>3</string>
 		<key>icon</key>
