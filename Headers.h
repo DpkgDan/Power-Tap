@@ -23,12 +23,6 @@
 
 @end
 
-@interface TPBottomDoubleButtonGrabberBar
-
-+ (UIImage*)answerButtonImage;
-
-@end
-
 @interface UIApplication (PowerOptions)
 
 - (void)reboot;
